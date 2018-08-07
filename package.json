@@ -4,7 +4,10 @@
   "description": "async node programming",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "greeter": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/greeter.js",
+    "callbacks": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/callbacks.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/victorhugojt/asyncNode/issues"
   },
-  "homepage": "https://github.com/victorhugojt/asyncNode#readme"
+  "homepage": "https://github.com/victorhugojt/asyncNode#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.7",
+    "request": "^2.87.0",
+    "typescript": "^3.0.1"
+  }
 }
