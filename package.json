@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "greeter": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/greeter.js",
+    "parser": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/parser.js",
     "callbacks": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/callbacks.js",
     "app": "tsc && node /Users/victorhj/trainnig/asyncNode/dist/src/app.js"
   },
